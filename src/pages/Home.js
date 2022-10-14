@@ -1,15 +1,22 @@
 import React from "react";
+import Dyana from '../components/Imagens/Dyana.jpg'
+import * as S from '../components/styles'
 
 function Home() {
     return (
-       <div>
+       <S.DivHome>
+        <S.DivInf>
         <h1>Eu sou a Dyana Furriel</h1>
         <p>
-            escrever a minha história...
+            Tenho 26 anos, moro em Costa Barros - Rio de Janeiro
 
         </p>
-        <img src="mudar as aspas para{} e colocar o nome da minha foto dentro das {}"/>
-       </div>
+        </S.DivInf>
+        <figure>
+        <S.ImgHome src={Dyana}/>
+        </figure>
+        
+       </S.DivHome>
     );
 }
 

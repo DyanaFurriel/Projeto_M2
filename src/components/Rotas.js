@@ -1,22 +1,17 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
 
+import { ListNav,LinkS } from './styles';
 
 function Rotas() {
     return (
-        <div>
-
-<nav>
-                <ul>
-                    <Link to='/'>Home</Link>
-                    <Link to='/about'>About</Link>
-                    <Link to='/onu'>ONU</Link>
-                </ul>
-            </nav>
-            
-            
-        </div>
-
+        <nav>
+            <ListNav>
+                <LinkS to='/'>Home</LinkS>
+                <LinkS to='/about'>About</LinkS>
+                <LinkS to='/works'>Works</LinkS>
+                <LinkS to='/onu'>ONU</LinkS>
+            </ListNav>
+        </nav> 
     );
 }
 
