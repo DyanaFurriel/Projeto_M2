@@ -57,4 +57,21 @@ display:flex;
 justify-content: space-evenly;
 flex-direction: column;
 
-` 
+`
+export const DivW = styled.div `
+display: flex;
+flex-wrap: wrap;
+border:solid;
+`
+
+export const Img = styled.img `
+width: 80%;
+object-fit: cover;
+`
+
+export const Figure = styled.figure `
+width:30%;
+display: flex;
+flex-direction: column;
+align-items: center;
+`
