@@ -53,8 +53,6 @@ width: 70%;
 display:flex;
 justify-content: space-evenly;
 flex-direction: column;
-border:solid;
-
 
 `
 export const DivW = styled.div `
