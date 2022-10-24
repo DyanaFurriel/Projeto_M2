@@ -9,7 +9,7 @@ function Rotas() {
                 <LinkS to='/'>Home</LinkS>
                 <LinkS to='/about'>About</LinkS>
                 <LinkS to='/works'>Works</LinkS>
-                <LinkS to='/onu'>ONU</LinkS>
+
             </ListNav>
         </nav> 
     );

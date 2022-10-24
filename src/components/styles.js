@@ -20,14 +20,13 @@ export const HeaderContainer = styled.div`
 export const HeaderH = styled.div`
     align-items: center;
     display: flex;
-    border: solid;
     justify-content: center;
+    height: 15vh;
 `;
 
 export const ListNav = styled.ul`
     display: flex;
     justify-content: space-around;
-    border:solid;
     width: 35vw;
 `;
 
@@ -45,23 +44,22 @@ font-size: 30px;
 
 export const DivHome = styled.div`
 width: 100%;
-border:solid;
 display:flex;
 justify-content: space-around;
 ` 
 
 export const DivInf = styled.div`
-width: 100%;
-border:solid;
+width: 70%;
 display:flex;
 justify-content: space-evenly;
 flex-direction: column;
+border:solid;
+
 
 `
 export const DivW = styled.div `
 display: flex;
 flex-wrap: wrap;
-border:solid;
 `
 
 export const Img = styled.img `
@@ -74,4 +72,30 @@ width:30%;
 display: flex;
 flex-direction: column;
 align-items: center;
+`
+
+export const H = styled.h2 `
+display:flex ;
+justify-content: center;
+font-size: 2.5rem;
+height: 20vh;
+align-items: center;
+
+`
+export const P = styled.p `
+display:flex;
+justify-content: center;
+font-size: 1.5rem;
+width: 90%;
+line-height: 1.5;
+
+`
+
+export const DivAbout = styled.div `
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
 `

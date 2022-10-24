@@ -6,15 +6,16 @@ function Home() {
     return (
        <S.DivHome>
         <S.DivInf>
-        <h1>Eu sou a Dyana Furriel</h1>
-        <p>
-            Tenho 26 anos, moro em Costa Barros - Rio de Janeiro
+        <S.H>Seja bem-vindo(a)!</S.H>
+        <S.P>
+            Sou a Dyana Furriel!
+        </S.P>
 
-        </p>
         </S.DivInf>
-        <figure>
+        
+        <S.Figure>
         <S.ImgHome src={Dyana}/>
-        </figure>
+        </S.Figure>
         
        </S.DivHome>
     );
